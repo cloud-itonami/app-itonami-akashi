@@ -1,0 +1,7 @@
+{:itonami.blueprint/id "akashi"
+ :itonami.blueprint/name "akashi (証) — public ad-disclosure transparency actor"
+ ;; One classification key (itonami-lib blueprint.edn schema): ISIC Rev.4 class 7310,
+ ;; chosen from README.md for the registry catalog (JUN-1439). Equivalence to
+ ;; ISIC Rev.5 is not checked here; the lib code table decides that.
+ :itonami.blueprint/isic-rev4 "7310"
+ :itonami.blueprint/domain :advertising/ad-disclosure-transparency}
